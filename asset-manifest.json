@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/el-jabri-yassine/static/css/main.7b218194.css",
-    "main.js": "/el-jabri-yassine/static/js/main.8ee3d993.js",
+    "main.js": "/el-jabri-yassine/static/js/main.1bb88f54.js",
     "static/media/yassine.png": "/el-jabri-yassine/static/media/yassine.69db322cf39b986521fa.png",
     "static/media/education.jpg": "/el-jabri-yassine/static/media/education.0d45c07684cf61a66a4d.jpg",
     "static/media/mountains.png": "/el-jabri-yassine/static/media/mountains.6bceb498a0e1e0a70b47.png",
@@ -10,10 +10,10 @@
     "static/media/sun.png": "/el-jabri-yassine/static/media/sun.1122608e12712a52470d.png",
     "index.html": "/el-jabri-yassine/index.html",
     "main.7b218194.css.map": "/el-jabri-yassine/static/css/main.7b218194.css.map",
-    "main.8ee3d993.js.map": "/el-jabri-yassine/static/js/main.8ee3d993.js.map"
+    "main.1bb88f54.js.map": "/el-jabri-yassine/static/js/main.1bb88f54.js.map"
   },
   "entrypoints": [
     "static/css/main.7b218194.css",
-    "static/js/main.8ee3d993.js"
+    "static/js/main.1bb88f54.js"
   ]
 }
