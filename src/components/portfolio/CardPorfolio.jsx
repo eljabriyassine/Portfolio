@@ -13,7 +13,7 @@ export default function CardPorfolio({ item }) {
   const y = useTransform(
     scrollYProgress,
     [0, 1],
-    isBigScreen ? [-300, 300] : [0, 0]
+    isBigScreen ? [-50, 50] : [0, 0]
   );
 
   return (
