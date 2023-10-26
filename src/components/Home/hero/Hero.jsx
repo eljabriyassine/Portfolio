@@ -1,4 +1,4 @@
-import HeroImage from '../../../assets/PhotoRoom-20231024_111141.png';
+import HeroImage from '../../../assets/yassine.png';
 import ScorllIcone from '../../../assets/scroll.png';
 
 import { motion } from 'framer-motion';
@@ -42,7 +42,7 @@ const sliderVariants = {
 
 const Hero = () => {
   return (
-    <div className="h-[calc(100vh-100px)] overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132] relative text-white">
+    <div className="h-[calc(100vh-100px)] overflow-hidden bg-gradient-to-b from-[#000] to-[#111132] relative text-white">
       <div className=" max-w-5xl h-full mx-auto p-8 z-100 ">
         <motion.div
           className="w-full  h-full flex flex-col justify-center    items-center gap-8 md:items-start md:w-1/2"

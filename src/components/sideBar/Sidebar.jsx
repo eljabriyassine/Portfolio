@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Links from './links/Links';
 import ToggleButton from './toggleButton/ToggleButton';
 
+const clipPathSize = window.innerWidth >= 640 ? '30px' : '20px';
 const variants = {
   open: {
     clipPath: 'circle(1200px at 50px 50px)',
@@ -13,7 +14,7 @@ const variants = {
     },
   },
   closed: {
-    clipPath: 'circle(30px at 50px 50px)',
+    clipPath: `circle(${clipPathSize} at 50px 50px)`,
     transition: {
       delay: 0.5,
       type: 'spring',

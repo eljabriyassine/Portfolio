@@ -16,11 +16,11 @@ const socialMediaLinks = [
 
 const variants = {
   initial: {
-    y: 500,
+    x: 10,
     opacity: 0,
   },
   animate: {
-    y: 0,
+    x: 0,
     opacity: 1,
     transition: {
       duration: 1,
@@ -56,7 +56,7 @@ export default function Contact() {
       );
   };
 
-  const isInView = useInView(ref, { margin: '-100px' });
+  const isInView = useInView(ref, { margin: '-10px' });
 
   return (
     <motion.div
@@ -133,7 +133,7 @@ export default function Contact() {
           </button>
         </motion.form>
       </motion.div>
-      <div className="absolute bottom-0 sm:bottom-[-100px]  sm:h-16 ">
+      <div className="absolute bottom-5 sm:bottom-[-100px]  sm:h-16 ">
         <div className="flex gap-3  sm:gap-20  ">
           {socialMediaLinks.map((item, index) => (
             <a
