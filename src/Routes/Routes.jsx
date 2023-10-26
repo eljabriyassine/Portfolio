@@ -3,5 +3,4 @@ export const Routes = {
   EDUCATION: 'Education',
   PROJECTES: 'Projects',
   CONTACT: 'Contact',
-  ABOUT: 'About',
 };
