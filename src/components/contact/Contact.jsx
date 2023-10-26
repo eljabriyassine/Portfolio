@@ -56,7 +56,7 @@ export default function Contact() {
       );
   };
 
-  const isInView = useInView(ref, { margin: '-10px' });
+  const isInView = useInView(ref, { margin: '0px' });
 
   return (
     <motion.div

@@ -18,7 +18,7 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio relative " ref={ref}>
-      <div className="sticky  left-0  pt-[calc(100vh-60px)] text-center text-orange-500 text-3xl sm:pt-16">
+      <div className="sticky top-0 left-0  pt-[calc(100vh-60px)] text-center text-orange-500 text-3xl sm:pt-16">
         <h1 className="sm:text-5xl">Featured Works</h1>
         <motion.div
           style={{ scaleX }}
