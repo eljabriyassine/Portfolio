@@ -8,7 +8,7 @@ export default function CardPorfolio({ item }) {
     target: ref,
   });
 
-  const isBigScreen = window.innerWidth >= 640; // Replace screenSize with your actual screen size detection logic
+  const isBigScreen = window.innerWidth >= 740; // Replace screenSize with your actual screen size detection logic
 
   const y = useTransform(
     scrollYProgress,

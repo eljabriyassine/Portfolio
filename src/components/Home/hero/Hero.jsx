@@ -100,12 +100,12 @@ const Hero = () => {
         />
       </div>
       <motion.div
-        className="z-0 absolute  text-[#ffffff09] font-bold text-[50px] sm:text-[180px] bottom-[-100px] whitespace-nowrap w-1/2 h-1/2"
+        className="z-0 absolute  text-[#ffffff09] font-bold text-[50px] sm:text-[100px] bottom-[-100px] whitespace-nowrap w-1/2 h-1/2"
         variants={sliderVariants}
         initial="initial"
         animate="animate"
       >
-        Passionate software engineer and innovator{' '}
+        Passionate software engineer and innovators
       </motion.div>
     </div>
   );
