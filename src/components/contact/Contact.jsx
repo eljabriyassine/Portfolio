@@ -16,11 +16,11 @@ const socialMediaLinks = [
 
 const variants = {
   initial: {
-    x: 10,
+    // x: 10,
     opacity: 0,
   },
   animate: {
-    x: 0,
+    // x: 0,
     opacity: 1,
     transition: {
       duration: 1,

@@ -58,7 +58,7 @@ const Hero = () => {
           </motion.h2>
           <motion.h2
             variants={textVariants}
-            className="text-xl text-rebeccapurple tracking-widest md:text-4xl  "
+            className="text-xl text-rebeccapurple tracking-widest sm:text-4xl  "
           >
             Software Engineering student
           </motion.h2>
@@ -100,7 +100,7 @@ const Hero = () => {
         />
       </div>
       <motion.div
-        className="z-0 absolute  text-[#ffffff09] font-bold text-[180px] bottom-[-50px] whitespace-nowrap w-1/2 h-1/2"
+        className="z-0 absolute  text-[#ffffff09] font-bold text-[50px] sm:text-[180px] bottom-[-100px] whitespace-nowrap w-1/2 h-1/2"
         variants={sliderVariants}
         initial="initial"
         animate="animate"
