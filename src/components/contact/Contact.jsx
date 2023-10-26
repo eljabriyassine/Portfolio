@@ -15,18 +15,18 @@ const socialMediaLinks = [
 ];
 
 const variants = {
-  initial: {
-    y: 500,
-    opacity: 0,
-  },
-  animate: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 1,
-      staggerChildren: 0.1,
-    },
-  },
+  // initial: {
+  //   y: 500,
+  //   opacity: 0,
+  // },
+  // animate: {
+  //   y: 0,
+  //   opacity: 1,
+  //   transition: {
+  //     duration: 1,
+  //     staggerChildren: 0.1,
+  //   },
+  // },
 };
 
 export default function Contact() {
@@ -133,7 +133,7 @@ export default function Contact() {
           </button>
         </motion.form>
       </motion.div>
-      <div className="absolute bottom-5 sm:bottom-[-100px]  sm:h-16 ">
+      <div className="absolute bottom-5 sm:bottom-[-120px]  sm:h-16 ">
         <div className="flex gap-3  sm:gap-20  ">
           {socialMediaLinks.map((item, index) => (
             <a

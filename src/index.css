@@ -10,6 +10,7 @@
 }
 
 html {
+  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 
@@ -19,7 +20,6 @@ body {
 }
 
 section {
-  scroll-snap-type: y mandatory;
   height: 100vh;
   scroll-snap-align: center;
 
