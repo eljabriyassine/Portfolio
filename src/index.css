@@ -10,12 +10,11 @@
 }
 
 html {
-  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #0c0c1d;
+  background-color: #000008;
   color: lightgray;
 }
 

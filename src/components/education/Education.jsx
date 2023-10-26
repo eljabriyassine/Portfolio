@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from "react";
-import { EducationInformation } from "../../constantes/EducationInformation";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import EducationPhoto from "../../assets/education.jpg";
+import { useEffect, useRef, useState } from 'react';
+import { EducationInformation } from '../../constantes/EducationInformation';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import EducationPhoto from '../../assets/education.jpg';
 
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation } from 'framer-motion';
 
 const Education = () => {
   const ref = useRef();
@@ -21,11 +21,11 @@ const Education = () => {
     updateWindowWidth();
 
     // Add event listener for window resize
-    window.addEventListener("resize", updateWindowWidth);
+    window.addEventListener('resize', updateWindowWidth);
 
     // Cleanup the event listener on unmount
     return () => {
-      window.removeEventListener("resize", updateWindowWidth);
+      window.removeEventListener('resize', updateWindowWidth);
     };
   }, []);
 
@@ -77,19 +77,17 @@ const Education = () => {
     },
   };
 
-
-
   return (
     <motion.div
       variants={variants}
       initial="animate"
       whileInView="animate"
       ref={ref}
-      className="services bg-gradient-to-b from-[#0c0c1d] to-[#111132] h-full flex flex-col justify-content"
+      className="bg-gradient-to-b from-[#0c0c1d] to-[#111132] h-full flex flex-col justify-content"
     >
       <motion.div
         variants={variants}
-        className="textContainer mt-5 h-[80px] w-4/5 sm:h-1/6 self-center text-center flex flex-col items-center gap-5 sm:flex-row sm:self-end"
+        className=" mt-5 h-[80px] w-4/5 sm:h-1/6 self-center text-center flex flex-col items-center gap-5 sm:flex-row sm:self-end"
       >
         <p className="text-sm sm:text-lg text-gray-500  text-right">
           My educational journey academic <br />
@@ -99,9 +97,9 @@ const Education = () => {
       </motion.div>
       <motion.div
         variants={variants}
-        className="titleContainer w-full h-1/4 sm:h-1/3 flex flex-col items-center justify-center gap-2"
+        className="w-full h-1/4 sm:h-1/3 flex flex-col items-center justify-center gap-2"
       >
-        <div className="title flex flex-col items-center text-center gap:6 sm:gap-12 sm:flex-row">
+        <div className="flex flex-col items-center text-center gap:6 sm:gap-12 sm:flex-row">
           <img
             src={EducationPhoto}
             alt=""
@@ -110,7 +108,7 @@ const Education = () => {
           <h1 className="text-xl sm:text-4xl font-bold">Summary of</h1>
         </div>
 
-        <div className="title flex flex-col items-center text-center gap:6 sm:gap-12 sm:flex-row">
+        <div className=" flex flex-col items-center text-center gap:6 sm:gap-12 sm:flex-row">
           <h1 className="text-xl sm:text-4xl ">
             <span className="font-bold">Educational </span>Attainments.
           </h1>
@@ -121,42 +119,38 @@ const Education = () => {
       </motion.div>
       <motion.div
         variants={variants}
-        className="listContainer h-1/2 flex flex-col  max-w-5xl mx-auto my-5 gap-6 sm:flex-row"
+        className="h-1/2 flex flex-col  max-w-5xl mx-auto my-5 gap-6 sm:flex-row"
       >
         {windowWidth > 640 ? (
           EducationInformation.map((education, index) => (
-              <motion.div
-                key={currentIndex}
-                variants={cardVariants}
-                initial="initial"
-                className="box px-3  py-8 sm:p-5 m-4 w-full h-4/5 rounded-xl border border-cyan-200 flex flex-col justify-center hover:bg-gray-700 gap-1  hover:opacity-150"
-                style={{ backgroundColor: "#0c0c1d" }}
-                animate={controls}
-              >
-                <h2 className="text-[22px] sm:text-[22px]">
-                  {education.Degree}
-                </h2>
-                <p className="text-[14px] p-3">{education.description}</p>
-              </motion.div>
-          ))
-        ) : (
-          
             <motion.div
-              key={currentIndex}
+              key={index}
               variants={cardVariants}
               initial="initial"
-              className="box px-3  py-8 sm:p-12 m-4 rounded-xl border border-gray-400 flex flex-col justify-between hover:bg-gray-700 gap-2"
-              style={{ backgroundColor: "#0c0c1d" }}
+              className="box px-3  py-8 sm:p-5 m-4 w-full h-4/5 rounded-xl border border-cyan-200 flex flex-col justify-center hover:bg-gray-700 gap-1  hover:opacity-150"
+              style={{ backgroundColor: '#0c0c1d' }}
               animate={controls}
             >
-              <h2 className="text-[22px] sm:text-[22px]">
-                {EducationInformation[currentIndex].Degree}
-              </h2>
-              <p className="text-[14px] p-3">
-                {EducationInformation[currentIndex].description}
-              </p>
+              <h2 className="text-[22px] sm:text-[22px]">{education.Degree}</h2>
+              <p className="text-[14px] p-3">{education.description}</p>
             </motion.div>
-         
+          ))
+        ) : (
+          <motion.div
+            key={currentIndex}
+            variants={cardVariants}
+            initial="initial"
+            className="box px-3  py-8 sm:p-12 m-4 rounded-xl border border-gray-400 flex flex-col justify-between hover:bg-gray-700 gap-2"
+            style={{ backgroundColor: '#0c0c1d' }}
+            animate={controls}
+          >
+            <h2 className="text-[22px] sm:text-[22px]">
+              {EducationInformation[currentIndex].Degree}
+            </h2>
+            <p className="text-[14px] p-3">
+              {EducationInformation[currentIndex].description}
+            </p>
+          </motion.div>
         )}
 
         <div className="flex  justify-center top-[calc(100vh-100px)] items-center gap-5  sm:hidden">

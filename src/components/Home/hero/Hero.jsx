@@ -1,8 +1,8 @@
-import HeroImage from "../../../assets/PhotoRoom-20231024_111141.png";
-import ScorllIcone from "../../../assets/scroll.png";
+import HeroImage from '../../../assets/PhotoRoom-20231024_111141.png';
+import ScorllIcone from '../../../assets/scroll.png';
 
-import { motion } from "framer-motion";
-import { Routes } from "../../../Routes/Routes";
+import { motion } from 'framer-motion';
+import { Routes } from '../../../Routes/Routes';
 
 const textVariants = {
   initial: {
@@ -31,10 +31,10 @@ const sliderVariants = {
     x: 0,
   },
   animate: {
-    x: "-100%",
+    x: '-100%',
     transition: {
       repeat: Infinity,
-      repeatType: "mirror",
+      repeatType: 'mirror',
       duration: 8,
     },
   },
@@ -65,13 +65,13 @@ const Hero = () => {
 
           <motion.div
             variants={textVariants}
-            className="buttons  items-center flex flex-col sm:flex-row md:flex-col md:justify-center lg:flex-row gap-4 "
+            className="  items-center flex flex-col sm:flex-row  md:justify-center lg:flex-row gap-4 "
           >
             <motion.button
               variants={textVariants}
               className="px-5 py-3 w-52 hover:bg-gray-600 border border-white rounded-md bg-transparent text-white  cursor-pointer font-light bg-gray-500"
             >
-              <a href={`#${Routes.PROJECTES}`}>Contact Me</a>
+              <a href={`#${Routes.PROJECTES}`}>See My Last Projects</a>
             </motion.button>
             <motion.button
               variants={textVariants}
@@ -105,7 +105,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Passionate software engineer and innovator{" "}
+        Passionate software engineer and innovator{' '}
       </motion.div>
     </div>
   );

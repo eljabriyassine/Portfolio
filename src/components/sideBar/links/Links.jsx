@@ -1,5 +1,5 @@
-import { Routes } from "../../../Routes/Routes"; // Correct casing for 'Routes.jsx'
-import { motion } from "framer-motion";
+import { Routes } from '../../../Routes/Routes'; // Correct casing for 'Routes.jsx'
+import { motion } from 'framer-motion';
 
 const variants = {
   open: {
@@ -26,10 +26,11 @@ const itemVariants = {
 };
 
 const Links = () => {
-  const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
-
   return (
-    <motion.div className="absolute w-full h-full flex flex-col items-center justify-center gap-7" variants={variants}>
+    <motion.div
+      className="absolute w-full h-full flex flex-col items-center justify-center gap-7"
+      variants={variants}
+    >
       {Object.values(Routes).map((item) => (
         <motion.a
           className="text-2xl  duration-500 hover:scale-125 tap:scale-80"
