@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/el-jabri-yassine/static/css/main.c8b1b54f.css",
-    "main.js": "/el-jabri-yassine/static/js/main.9cf7ccd2.js",
-    "static/media/yassine.png": "/el-jabri-yassine/static/media/yassine.69db322cf39b986521fa.png",
-    "static/media/education.jpg": "/el-jabri-yassine/static/media/education.0d45c07684cf61a66a4d.jpg",
-    "static/media/mountains.png": "/el-jabri-yassine/static/media/mountains.6bceb498a0e1e0a70b47.png",
-    "static/media/stars.png": "/el-jabri-yassine/static/media/stars.a979f6ed7ad00c7ea0b2.png",
-    "static/media/planets.png": "/el-jabri-yassine/static/media/planets.827213af57ae82d007cd.png",
-    "static/media/sun.png": "/el-jabri-yassine/static/media/sun.1122608e12712a52470d.png",
-    "index.html": "/el-jabri-yassine/index.html",
-    "main.c8b1b54f.css.map": "/el-jabri-yassine/static/css/main.c8b1b54f.css.map",
-    "main.9cf7ccd2.js.map": "/el-jabri-yassine/static/js/main.9cf7ccd2.js.map"
+    "main.css": "/Portfolio/static/css/main.c8b1b54f.css",
+    "main.js": "/Portfolio/static/js/main.a7a8be5b.js",
+    "static/media/yassine.png": "/Portfolio/static/media/yassine.69db322cf39b986521fa.png",
+    "static/media/education.jpg": "/Portfolio/static/media/education.0d45c07684cf61a66a4d.jpg",
+    "static/media/mountains.png": "/Portfolio/static/media/mountains.6bceb498a0e1e0a70b47.png",
+    "static/media/stars.png": "/Portfolio/static/media/stars.a979f6ed7ad00c7ea0b2.png",
+    "static/media/planets.png": "/Portfolio/static/media/planets.827213af57ae82d007cd.png",
+    "static/media/sun.png": "/Portfolio/static/media/sun.1122608e12712a52470d.png",
+    "index.html": "/Portfolio/index.html",
+    "main.c8b1b54f.css.map": "/Portfolio/static/css/main.c8b1b54f.css.map",
+    "main.a7a8be5b.js.map": "/Portfolio/static/js/main.a7a8be5b.js.map"
   },
   "entrypoints": [
     "static/css/main.c8b1b54f.css",
-    "static/js/main.9cf7ccd2.js"
+    "static/js/main.a7a8be5b.js"
   ]
 }
