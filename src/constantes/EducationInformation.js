@@ -13,7 +13,7 @@ export const EducationInformation = [
       'I earned a DEUST degree in Mathematics, IT, Physics, and Chemistry from the Faculty of Sciences and Techniques of Marrakesh.',
   },
   {
-    Degree: 'Diploma in Engineering in Information Systems (2023-2024)',
+    Degree: 'Diploma in Engineering in Information Systems (2021-2024)',
     location: 'Faculty of Sciences and Techniques of Marrakesh',
     description:
       'I obtained a degree in software engineering at the Faculty of Sciences and Techniques of Marrakesh',
