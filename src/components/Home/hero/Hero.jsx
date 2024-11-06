@@ -60,7 +60,7 @@ const Hero = () => {
             variants={textVariants}
             className="text-xl text-rebeccapurple tracking-widest sm:text-4xl  "
           >
-            Software Engineering student
+            Software Engineering
           </motion.h2>
 
           <motion.div
